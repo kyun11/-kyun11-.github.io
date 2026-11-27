@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>정비사업 이후 · 상권과 생활이동</title>
+  <meta name="description" content="대규모 정비사업 이후 생활서비스 상권 구성과 생활이동 변화를 분석한 연구 발표" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">RESEARCH</a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#commerce">상권</a>
+      <a href="#mobility">생활이동</a>
+      <a href="#synthesis">종합</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="city-grid" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#f7f7f5" stop-opacity="0.15" />
+              <stop offset="55%" stop-color="#f7f7f5" stop-opacity="0.85" />
+              <stop offset="100%" stop-color="#f7f7f5" stop-opacity="1" />
+            </linearGradient>
+          </defs>
+          <rect width="1200" height="800" fill="#0c0c0c" />
+          <g fill="none" stroke="#2a2a2a" stroke-width="1">
+            <path d="M0 620 H1200" />
+            <path d="M0 680 H1200" />
+          </g>
+          <g class="blocks" fill="#161616" stroke="#3a3a3a" stroke-width="1.5">
+            <rect x="40" y="380" width="70" height="240" />
+            <rect x="130" y="280" width="90" height="340" />
+            <rect x="240" y="340" width="60" height="280" />
+            <rect x="320" y="220" width="110" height="400" />
+            <rect x="450" y="300" width="80" height="320" />
+            <rect x="550" y="180" width="100" height="440" />
+            <rect x="670" y="260" width="75" height="360" />
+            <rect x="765" y="320" width="95" height="300" />
+            <rect x="880" y="200" width="120" height="420" />
+            <rect x="1020" y="290" width="70" height="330" />
+            <rect x="1110" y="360" width="55" height="260" />
+          </g>
+          <g fill="#1f1f1f" stroke="#4a4a4a" stroke-width="1">
+            <rect x="145" y="300" width="18" height="24" />
+            <rect x="175" y="300" width="18" height="24" />
+            <rect x="145" y="340" width="18" height="24" />
+            <rect x="175" y="340" width="18" height="24" />
+            <rect x="350" y="250" width="20" height="28" />
+            <rect x="385" y="250" width="20" height="28" />
+            <rect x="575" y="210" width="20" height="28" />
+            <rect x="610" y="210" width="20" height="28" />
+            <rect x="910" y="230" width="22" height="30" />
+            <rect x="950" y="230" width="22" height="30" />
+          </g>
+          <rect width="1200" height="800" fill="url(#fade)" />
+        </svg>
+      </div>
+      <div class="hero-content">
+        <p class="brand reveal">정비사업 이후</p>
+        <h1 class="reveal delay-1">상권과 생활이동은<br />어떻게 달라졌는가</h1>
+        <p class="hero-lead reveal delay-2">
+          염리동·서초2동 사례로 본 생활서비스 점포 구성과 생활권 이동의 변화
+        </p>
+        <div class="hero-cta reveal delay-3">
+          <a class="btn btn-primary" href="#commerce">분석 살펴보기</a>
+          <a class="btn btn-ghost" href="#synthesis">결론으로</a>
+        </div>
+      </div>
+      <div class="scroll-hint reveal delay-4" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section class="section intro" id="intro">
+      <div class="container narrow">
+        <p class="eyebrow reveal">연구 개요</p>
+        <h2 class="reveal">대규모 정비사업 이후,<br />주변 도시는 어떻게 바뀌었을까</h2>
+        <p class="lead reveal">
+          신축 단지 입주 이후 생활서비스 점포 수와 업종 구성, 그리고 생활권 안팎의 이동량이
+          어떻게 달라졌는지 염리동과 서초2동을 중심으로 살펴봤습니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section commerce" id="commerce">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">01 — 상권 구성</p>
+          <h2 class="reveal">생활서비스 점포는 줄지 않았다</h2>
+          <p class="section-desc reveal">
+            소비가 신축 단지 안으로 집중되며 주변 외식·소매·서비스가 줄고,
+            부동산중개업 비중이 높아질 것이라는 예상을 검증했습니다.
+          </p>
+        </div>
+
+        <div class="stat-row">
+          <article class="stat reveal">
+            <p class="stat-label">염리동 점포 수</p>
+            <p class="stat-value">
+              <span class="num" data-count="640">0</span>
+              <span class="sep">→</span>
+              <span class="num" data-count="765">0</span>
+            </p>
+            <p class="stat-note">입주 전후 증가</p>
+          </article>
+          <article class="stat reveal delay-1">
+            <p class="stat-label">서초2동 점포 수</p>
+            <p class="stat-value">
+              <span class="num" data-count="3458">0</span>
+              <span class="sep">→</span>
+              <span class="num" data-count="4094">0</span>
+            </p>
+            <p class="stat-note">입주 전후 증가</p>
+          </article>
+        </div>
+
+        <div class="split">
+          <div class="split-copy reveal">
+            <h3>업종 구성은 지역마다 달랐다</h3>
+            <p>
+              두 지역 모두 점포 수는 늘었지만, 업종 구성의 변화 방향은 같지 않았습니다.
+              염리동은 외식업 비중이 약 33%로 유지된 가운데 소매업이 줄고 서비스업이 늘었습니다.
+              서초2동은 외식업이 소폭 낮아지고, 서비스업이 입주 후 49.4%로 절반에 가까워졌습니다.
+            </p>
+          </div>
+          <div class="mix-panel reveal delay-1" aria-label="업종 구성 변화">
+            <div class="mix-block">
+              <div class="mix-head">
+                <span>염리동</span>
+                <span>외식 유지 · 서비스↑</span>
+              </div>
+              <div class="bars">
+                <div class="bar-row">
+                  <span>외식</span>
+                  <div class="bar"><i style="--w:33%"></i></div>
+                  <em>33%</em>
+                </div>
+                <div class="bar-row">
+                  <span>소매</span>
+                  <div class="bar"><i style="--w:25.5%"></i></div>
+                  <em>25.5%</em>
+                </div>
+                <div class="bar-row">
+                  <span>서비스</span>
+                  <div class="bar"><i style="--w:41.8%"></i></div>
+                  <em>41.8%</em>
+                </div>
+              </div>
+            </div>
+            <div class="mix-block">
+              <div class="mix-head">
+                <span>서초2동</span>
+                <span>서비스 49.4%</span>
+              </div>
+              <div class="bars">
+                <div class="bar-row">
+                  <span>외식</span>
+                  <div class="bar"><i style="--w:28%"></i></div>
+                  <em>소폭↓</em>
+                </div>
+                <div class="bar-row">
+                  <span>소매</span>
+                  <div class="bar"><i style="--w:22.6%"></i></div>
+                  <em>—</em>
+                </div>
+                <div class="bar-row">
+                  <span>서비스</span>
+                  <div class="bar"><i style="--w:49.4%"></i></div>
+                  <em>49.4%</em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="insight-band reveal">
+          <p class="insight-label">순증률 DID</p>
+          <p class="insight-text">
+            염리동 외식업은 비교 동보다 <strong>1.83%p</strong> 낮고, 소매업은
+            <strong>1.29%p</strong> 높았습니다. 서초2동은 소매업
+            <strong>−1.68%p</strong>, 서비스업 <strong>−0.67%p</strong>였습니다.
+            점포 수 증가와 업종별 증가 흐름은 구분해서 봐야 합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brokerage" id="brokerage">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">02 — 부동산중개업</p>
+          <h2 class="reveal">비중 상승은 서초2동에서</h2>
+          <p class="section-desc reveal">
+            중개업소 수는 두 지역 모두 늘었지만, 전체 상권과 서비스업 안에서의 비중 변화는 달랐습니다.
+          </p>
+        </div>
+
+        <div class="compare-grid">
+          <article class="compare reveal">
+            <h3>염리동</h3>
+            <ul>
+              <li><span>평균 중개업소</span><strong>57 → 67</strong></li>
+              <li><span>전체 상권 비중</span><strong>9.0% → 8.8%</strong></li>
+              <li><span>서비스업 내 비중</span><strong>22.8% → 21.0%</strong></li>
+            </ul>
+            <p>비중은 소폭 하락</p>
+          </article>
+          <article class="compare reveal delay-1">
+            <h3>서초2동</h3>
+            <ul>
+              <li><span>평균 중개업소</span><strong>396 → 501</strong></li>
+              <li><span>전체 상권 비중</span><strong>11.5% → 12.2%</strong></li>
+              <li><span>서비스업 내 비중</span><strong>23.5% → 24.8%</strong></li>
+            </ul>
+            <p>입주 후 서비스업의 약 1/4이 중개업</p>
+          </article>
+        </div>
+
+        <p class="footnote-line reveal">
+          순증률의 전후 변화는 두 지역 모두 비교 동보다 낮았습니다.
+          수가 늘었다는 것과 증가 속도가 빨라졌다는 것은 다른 이야기입니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section mobility" id="mobility">
+      <div class="container">
+        <div class="section-head light">
+          <p class="eyebrow reveal">03 — 생활이동</p>
+          <h2 class="reveal">이동량은 늘었고,<br />내부 비중은 달랐다</h2>
+          <p class="section-desc reveal">
+            준공 이후 전체 생활이동량이 늘었는지, 생활권 내부이동 비중이 높아졌는지,
+            그리고 2년차가 1년차보다 더 높아졌는지를 확인했습니다.
+          </p>
+        </div>
+
+        <div class="scope reveal">
+          <p>
+            분석은 염리동 2021년 3월, 서초2동 2021년 6월을 기준으로
+            사업 전 1년 · 후 1년차 · 후 2년차를 각각 12개월씩 비교했습니다.
+            내부이동에는 대상 동과 인접 동 간 양방향 이동을 포함했습니다.
+          </p>
+        </div>
+
+        <div class="stat-row invert">
+          <article class="stat reveal">
+            <p class="stat-label">염리동 전체 이동</p>
+            <p class="stat-value mono">+93%</p>
+            <p class="stat-note">사업 전 대비 후 2년차 일평균</p>
+          </article>
+          <article class="stat reveal delay-1">
+            <p class="stat-label">서초2동 전체 이동</p>
+            <p class="stat-value mono">+35%</p>
+            <p class="stat-note">사업 전 대비 후 2년차 일평균</p>
+          </article>
+          <article class="stat reveal delay-2">
+            <p class="stat-label">서초2동 내부 비중</p>
+            <p class="stat-value mono">+2.58%p</p>
+            <p class="stat-note">31.8% → 34.4%</p>
+          </article>
+        </div>
+
+        <div class="split invert-split">
+          <div class="split-copy reveal">
+            <h3>내부와 외부가 함께 움직였다</h3>
+            <p>
+              외부유입과 외부유출은 두 지역 모두 상당 부분 겹치는 흐름을 보였고,
+              뒤쪽 기간에는 내부이동과 함께 증가했습니다.
+              따라서 내부이동량 증가만으로 내부 비중 상승을 단정할 수는 없었습니다.
+            </p>
+            <p>
+              염리동 내부이동 비중은 약 26.7%에서 26.5%로 대체로 유지됐고,
+              서초2동만 내부이동이 외부이동보다 빠르게 늘었습니다.
+            </p>
+          </div>
+          <aside class="hypotheses reveal delay-1">
+            <h4>가설 검증</h4>
+            <ol>
+              <li>
+                <span>전체 이동량 증가</span>
+                <strong>두 지역 모두 성립</strong>
+              </li>
+              <li>
+                <span>내부이동 비중 상승</span>
+                <strong>서초2동만 성립</strong>
+              </li>
+              <li>
+                <span>2년차 &gt; 1년차</span>
+                <strong>방향은 동일</strong>
+              </li>
+            </ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section synthesis" id="synthesis">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">04 — 종합</p>
+          <h2 class="reveal">늘었다는 사실만으로는 부족하다</h2>
+        </div>
+
+        <div class="findings">
+          <article class="finding reveal">
+            <span class="finding-num">01</span>
+            <h3>인구·주거</h3>
+            <p>
+              1인가구 비중 상승 기대는 두 지역에서 뚜렷하지 않았고,
+              주거가격 변화도 지역·시장에 따라 방향이 달랐습니다.
+            </p>
+          </article>
+          <article class="finding reveal delay-1">
+            <span class="finding-num">02</span>
+            <h3>상권</h3>
+            <p>
+              점포 수는 증가했으나 업종별 순증률은 달랐고,
+              부동산중개업 비중 상승은 서초2동에서 관측됐습니다.
+            </p>
+          </article>
+          <article class="finding reveal delay-2">
+            <span class="finding-num">03</span>
+            <h3>생활이동</h3>
+            <p>
+              전체 이동량은 늘었지만 내부이동 비중은 염리동에서 유지,
+              서초2동에서 상승했습니다.
+            </p>
+          </article>
+        </div>
+
+        <blockquote class="closing reveal">
+          누가 거주하는지, 어떤 업종의 비중이 달라지는지,
+          이동은 어느 지역과 연결되는지를 함께 살펴볼 필요가 있습니다.
+          이번 결과는 재개발·재건축 전체의 차이로 일반화하기보다,
+          대상 지역에서 관측된 변화로 해석했습니다.
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>정비사업 이후 · 상권과 생활이동</p>
+      <a href="#top">맨 위로</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
